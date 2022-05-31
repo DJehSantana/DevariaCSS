@@ -24,8 +24,12 @@ header .link-logo{
     text-decoration: none;
 }
 
+.menu ul li a:hover{    
+    border: 2px double #25cbd3;
+}
 
-@media screen and (min-widh: 992px) {
+
+@media screen and (min-width: 992px) {
     header{
         position: relative;
     }
