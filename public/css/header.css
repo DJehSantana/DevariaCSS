@@ -24,7 +24,8 @@ header .link-logo{
     text-decoration: none;
 }
 
-.menu ul li a:hover{    
+.menu ul li a:hover{  
+    padding: 10px;  
     border: 2px double #25cbd3;
 }
 
