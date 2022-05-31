@@ -9,3 +9,8 @@ nav {
 span{
     color:blue
 }
+
+.cover-container figure img{
+    width: 100%;
+}
+
