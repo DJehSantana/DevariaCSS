@@ -1,0 +1,9 @@
+/* Estilos do footer */
+
+footer{
+    text-align: center;
+    border-top: 2px double #f0f5ff;
+    padding: 20px;
+    width: 75%;
+    margin: auto;
+}
