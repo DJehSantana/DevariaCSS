@@ -7,3 +7,23 @@ footer{
     width: 75%;
     margin: auto;
 }
+
+footer section span{
+    color: #5e49ff;
+}
+
+footer section p{
+    color: #3bd42d;
+}
+
+footer section p a{
+    text-decoration: none;
+    color: #3bd42d;    
+}
+
+footer section p a:hover{
+    background-color: #f0f5ff;
+    color: #5e49ff;
+    padding: 4px;   
+}
+
