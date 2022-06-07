@@ -22,8 +22,7 @@ footer section p a{
 }
 
 footer section p a:hover{
-    background-color: #f0f5ff;
-    color: #5e49ff;
-    padding: 4px;   
+    text-decoration: underline;
 }
+    
 
