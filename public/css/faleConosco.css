@@ -14,6 +14,7 @@ main .contact-form input,
 main .contact-form select,
 main .contact-form textarea{
     width: 90%;
+    font-size: 1.1em;
     padding: 5px 15px;
     outline-color: #3bd42d;
 }
@@ -23,7 +24,66 @@ main .contact-form textarea{
     margin-top: 15px;
 }
 
+main .contact-form > div:nth-child(4) span{
+    color: #25cbd3;
+    font-size: 1.1em;
+}
+
+/* Estilos específicos dos inputs*/
+
 main .contact-form > div input[type=radio],
 main .contact-form > div input[type=checkbox]{
     width: 25px;
+}
+
+
+main .contact-form > div input[type=submit],
+main .contact-form > div input[type=reset]{
+    width: 70%;
+    padding: 10px;
+    margin: auto;
+    margin-bottom: 15px;
+    border: none;
+    border-radius: 10px;
+    text-transform: uppercase;    
+    font-size: 1.1em; 
+    font-weight: bold;      
+}
+
+main .contact-form > div input[type=submit]:hover,
+main .contact-form > div input[type=reset]:hover{
+    border: 2px solid #25cbd3;
+}
+
+
+main .contact-form > div input[type=submit]{
+    background-color: #3bd42d;
+}
+
+main .contact-form > div input[type=reset]{
+    background-color: #5e49ff;
+}
+
+/* Responsividade desktop */
+
+@media screen and (min-width: 992px) {
+    main .contact-form{
+        width: 60%;
+        border: 2px dashed #25cbd3;
+        border-radius: 20px 5px;
+        padding: 25px;
+        margin: 25px auto;
+    }   
+    
+    main .contact-form select{
+        width: 50%;
+    }
+    
+    main .contact-form > div input[type=submit],
+    main .contact-form > div input[type=reset]{
+        width: auto;
+        padding: 10px;
+        margin-right: 15px;
+    }
+   
 }
