@@ -39,7 +39,7 @@ main .contact-form > div input[type=checkbox]{
 
 main .contact-form > div input[type=submit],
 main .contact-form > div input[type=reset]{
-    width: 70%;
+    width: 40%;
     padding: 10px;
     margin: auto;
     margin-bottom: 15px;
