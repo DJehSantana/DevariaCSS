@@ -27,6 +27,7 @@ header .link-logo{
 .menu ul li a:hover{  
     padding: 10px;  
     border: 2px double #25cbd3;
+    border-radius: 4px;
 }
 
 
