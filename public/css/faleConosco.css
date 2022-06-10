@@ -44,8 +44,7 @@ main .contact-form > div input[type=reset]{
     margin: auto;
     margin-bottom: 15px;
     border: none;
-    border-radius: 10px;
-    text-transform: uppercase;    
+    border-radius: 10px;       
     font-size: 1.1em; 
     font-weight: bold;      
 }
